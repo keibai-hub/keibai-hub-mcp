@@ -1,0 +1,27 @@
+name: keibai-hub
+displayName: 不動産競売 構造化データハブ — Japan real-estate auctions
+description: |
+  Japanese court-run real-estate auction registry (BIT, bit.courts.go.jp)
+  re-published as structured JSON / Markdown for AI agents. ~1,480 active
+  auctions across 46 prefectures and 110+ district courts. 5 tools:
+  search_auctions, get_auction_detail, list_upcoming_sales,
+  get_court_directory, find_practitioner_for_auction.
+homepage: https://keibai-hub.com/
+repository: https://github.com/keibai-hub/keibai-hub-mcp
+license: MIT
+author: keibai-hub
+language: typescript
+runtime: remote
+startCommand:
+  type: http
+  url: https://keibai-hub.com/mcp-auctions
+keywords:
+  - japan
+  - real-estate
+  - auctions
+  - foreclosure
+  - bit
+  - courts
+  - 競売
+  - 不動産
+  - investment
